@@ -16,17 +16,17 @@
 
                <!--Field for Name input  -->
                 <label for="name" id="name-label">Name</label> <br>
-                <input type="text" id="name" placeholder="Enter your name" class="gap full-width">
+                <input type="text" id="name" name="name" placeholder="Enter your name" class="gap full-width">
                 <br>
 
                 <!-- Field for Email Input -->
                 <label for="email" id="email-label">Email</label> <br>
-                <input type="email" id="email" placeholder="Enter your Email" class="gap full-width">
+                <input type="email" id="email" name="email" placeholder="Enter your Email" class="gap full-width">
                 <br>
 
                 <!-- Field for age input -->
                 <label for="age" id="number-label">Age (optional)</label> <br>
-                <input type="number" id="age" placeholder="Age" min="15" max="70" class="gap full-width">
+                <input type="number" id="age" name="age" placeholder="Age" min="15" max="70" class="gap full-width">
                 <br>
 
                 <!-- Field for choosing Current role of user -->
@@ -44,13 +44,13 @@
                 <!-- Field for taking feedback from user about recommendation -->
                 <span>Would you recommend freeCodeCamp to a friend?</span>                
                 <br>
-                <input type="radio" name="recommned" id="definitely">
+                <input type="radio" name="recommned" id="definitely" value="definitely">
                 <label for="definitely" class="gap">Definitely</label> <br>
 
-                <input type="radio" name="recommned" id="maybe">
+                <input type="radio" name="recommned" id="maybe" value="maybe">
                 <label for="maybe" class="gap">Maybe</label> <br>
 
-                <input type="radio" name="recommned" id="notSure">
+                <input type="radio" name="recommned" id="notSure" value="notSure">
                 <label for="notSure">Not sure</label> <br>
                 <br>
                 <!-- Taking response from user about favourite feature of Free code camp -->
@@ -68,37 +68,37 @@
                 <span class="gap-up">What would you like to see improved? (Check all that apply)</span>                
                 <br>
 
-                <input type="checkbox" name="improve" id="frontEnd">
+                <input type="checkbox" name="improve" id="frontEnd" value="frontEnd">
                 <label for="frontEnd">Front-end Projects</label> <br>
 
-                <input type="checkbox" name="improve" id="backEnd">
+                <input type="checkbox" name="improve" id="backEnd" value="backEnd">
                 <label for="backEnd">Back-end Projects</label> <br>
 
-                <input type="checkbox" name="improve" id="dataVisualisation">
+                <input type="checkbox" name="improve" id="dataVisualisation" value="dataVisualisation">
                 <label for="dataVisualisation">Data Visualisation</label> <br>
 
-                <input type="checkbox" name="improve" id="challenges">
+                <input type="checkbox" name="improve" id="challenges" value="challenges">
                 <label for="challenges">Challenges</label> <br>
 
-                <input type="checkbox" name="improve" id="openSourceCommunity">
+                <input type="checkbox" name="improve" id="openSourceCommunity" value="openSourceCommunity">
                 <label for="openSourceCommunity">Open source community</label> <br>
 
-                <input type="checkbox" name="improve" id="gitterHelpRooms">
+                <input type="checkbox" name="improve" id="gitterHelpRooms" value="gitterHelpRooms">
                 <label for="gitterHelpRooms">Gitter help rooms</label> <br>
 
-                <input type="checkbox" name="improve" id="videos">
+                <input type="checkbox" name="improve" id="videos" value="videos">
                 <label for="videos">Videos</label> <br>
 
-                <input type="checkbox" name="improve" id="cityMeetups">
+                <input type="checkbox" name="improve" id="cityMeetups" value="cityMeetups">
                 <label for="cityMeetups">City Meetups</label> <br>
 
-                <input type="checkbox" name="improve" id="wiki">
+                <input type="checkbox" name="improve" id="wiki" value="wiki">
                 <label for="wiki">Wiki</label> <br>
 
-                <input type="checkbox" name="improve" id="forum">
+                <input type="checkbox" name="improve" id="forum" value="forum" >
                 <label for="forum">Forum</label> <br>
 
-                <input type="checkbox" name="improve" id="additionalCourses">
+                <input type="checkbox" name="improve" id="additionalCourses" value="additionalCourses">
                 <label for="additionalCourses">Additional courses</label> <br>
                 <br>
                 <label for="textarea" class="gap-up">Any comments or suggestions?</label><br>
